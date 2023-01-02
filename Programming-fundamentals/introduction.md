@@ -46,11 +46,23 @@ it with your eyes.
 So excpet for really time perfomance critical tasks, both compiled and interpreted languages can be used.
 
 
-That is. to sumarize, programming is giving a set of instruction to machine (computer, phone, etc..) to perfomr some tasks wiht or without a result.
+Now the last thing you need to know to get started is that, each programming language has it own syntax and rules.
+It's similar to speaking languages, the way you write a sentence in english is not the same for french, or chinees, or any other langauges.
+The way to form sentences, the place of the subject, of the verb, etc are not the same.
+It's the same thing in programming languages.
+So to know a programming language, you need to know it syntax and rules.
+
+For this courses, all the example I'll give will be written in Python programming languages. as it's the most popular and easy
+programming language currenlty.
+
+
+
+So, That is. to sumarize, programming is giving a set of instruction to machine (computer, phone, etc..) to perfomr some tasks wiht or without a result.
 The machine only understand the machine code, so normally a program should be written in machine code.
 But because machine code is not easy to write, people have created high level programming languges. Some are compiled that means the
 program is translated into an executable machine code before sent to the machine,
 and other are interpreted which means the translation occors during the program execution.
+And finally, each programming language has it own syntax and rules.
 
 
 
