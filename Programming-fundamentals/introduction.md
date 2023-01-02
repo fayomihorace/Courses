@@ -11,8 +11,10 @@ that can kind of think like humain. Kind of, but it's not the subject of this co
 
 But all that is possile because, we are able to talk to computers, to give inputs, to give orders
 using programming.
+
 So programming is: giving a set of instruction to a machine, wether it's a computer or a cell phone,
 or a connected fridge, in order to get a result of just to perform some work.
+That programm is also called `code`.
 
 So basically, a person called the programmer write what we then call a program
 using a programming language. And the program is sent to the machine with some
@@ -52,6 +54,33 @@ The way to form sentences, the place of the subject, of the verb, etc are not th
 It's the same thing in programming languages.
 So to know a programming language, you need to know it syntax and rules.
 
+
+Example: To summing two numbers using machine code looksl like this:
+```
+00: 0005   5
+01: 0008   8
+
+10: 8A00   R[A] <- mem[00]
+11: 8B01   R[B] <- mem[01]
+12: 1CAB   R[C] <- R[A] + R[B]
+13: 9C02   mem[02] <- R[C]
+14: 0000   halt
+```
+To do the same using Java it looks like this:
+```java
+int number_1 = 5;   
+int number_2 = 8;  
+int sum = number_1 + number_2;  
+```
+
+And now using python:
+```python
+a, b = 5, 8
+sum = a + b
+```
+Don't worry if you don't get everything now, it was just to show you that as you can see the syntax are not the same.
+
+
 For this courses, all the example I'll give will be written in Python programming languages. as it's the most popular and easy
 programming language currenlty.
 
@@ -62,8 +91,7 @@ The machine only understand the machine code, so normally a program should be wr
 But because machine code is not easy to write, people have created high level programming languges. Some are compiled that means the
 program is translated into an executable machine code before sent to the machine,
 and other are interpreted which means the translation occors during the program execution.
-And finally, each programming language has it own syntax and rules.
-
+And finally, each programming language has it own syntax and rules that programmer shouls follow while writting code in that programming language
 
 
 
