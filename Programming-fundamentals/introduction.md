@@ -14,7 +14,6 @@ using programming.
 So programming is: giving a set of instruction to a machine, wether it's a computer or a cell phone,
 or a connected fridge, in order to get a result of just to perform some work.
 
-
 So basically, a person called the programmer write what we then call a program
 using a programming language. And the program is sent to the machine with some
 potential data to execute.
@@ -27,20 +26,31 @@ Now that you know what programming is, you should also know that,
 first there are many porgramming languages.
 and second, the machine or the computer understand only one programming language, which is called: `the machine code`.
 
-But, we won't enter in the details right now, you just need to know that machine code is not easy to write so people
+But, we won't enter in the details in this course. You just need to know that machine code is not easy to write so people
 has created more easier and convinient programming languages called high level programming languages.
-
-In the next video, we are to talk more machine code and programming languages that exists.
-
-
-And when the programmer finish written the higth level program, he passes it to something called a `compiler`, that
-will do the job of translating that high level program to the machine code. So the program can now be executed by the machine.
+THe programmer then write his program using the high level programming language, and passes it to something called a `compiler` that
+will do the job of translating that high level program to the machine code and generate an executable file that the machine could run.
 We call those programming languages: `Compiled Programming languages`.
 Some example of such programming languages are: C, C++, Java.
 
-Now there are other high level programming languages, that instead of waiting the programmer to finish writting the 
-program before create the machine code version, they are able to do the translation at the same time the programmer is writting.
-So the programmer don't need anymore the wait uni
+Now there are other high level programming languages that are capable of translating program line by line into machine code
+during program run. That means, the programer don't need to pass the program to a compiler before the machine could run it.
+The machine can run that programm direcltly, line by line, but by doing the translaton job during the porgram run using what we call
+an interpreter.
+Those programming langauges are then called `Interpreted Programming Languges`.
+Examples:
+
+But, because interpreted languages programs do the transaltion job during programm run, they are generally slower than complied programs
+which wait to have the final machine executable before start running. But, the difference is generally lower than a seconds, and you won't even notice
+it with your eyes.
+So excpet for really time perfomance critical tasks, both compiled and interpreted languages can be used.
+
+
+That is. to sumarize, programming is giving a set of instruction to machine (computer, phone, etc..) to perfomr some tasks wiht or without a result.
+The machine only understand the machine code, so normally a program should be written in machine code.
+But because machine code is not easy to write, people have created high level programming languges. Some are compiled that means the
+program is translated into an executable machine code before sent to the machine,
+and other are interpreted which means the translation occors during the program execution.
 
 
 
@@ -54,36 +64,3 @@ Object-Oriented Programming
 Debugging
 IDEs and Coding Environments
 
-
-https://www.guru99.com/difference-compiler-vs-interpreter.html#:~:text=Compiler%20transforms%20code%20written%20in,while%20interpreted%20code%20runs%20slower.
-
-
-- 
-
-Programming languages:
-Interpreted
-Compiles
-Examples
-Syntax
-Present python as the PG language we will.leanr
-
-Variables:
-Replit,
-Definition
-Integers, float
-Boolean
-Strings
-
-Structures:
-Notice that in some languages string are structure
-- list
-- hashmap
-- Tuples
-- ....
-
-
-
-
-
-
-https://www.educative.io/answers/what-are-the-basic-fundamental-concepts-of-programming
