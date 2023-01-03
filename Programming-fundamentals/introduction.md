@@ -102,10 +102,12 @@ Variable Declaration
 Basic Syntax
 Data Type and Structures
 Flow Control Structures (Conditionals and loops)
-Algorithms and BigO notation
+Algorithms and Pseudo code
 Functional Programming
 Object-Oriented Programming
 Debugging
 IDEs and Coding Environments
+Big O notation.
+
 
 
